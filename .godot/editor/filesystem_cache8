@@ -1,0 +1,49 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1737916930
+icon.svg::CompressedTexture2D::5636086916695297761::1737587103::1737587112::1::::<><>::
+player.tscn::PackedScene::8758184253411276910::1737916584::0::1::::<><>::res://player.gd<>uid://dpjhafhm7xoqc::::res://bullet.tscn<>uid://cchbq1nma2uil::::res://Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png<>uid://qisyaqaiedce::::res://Mini Pixel Pack 3/Player ship/Boosters (16 x 16).png<>uid://d1cmmbgwol5pi::::res://Mini Pixel Pack 3/Player ship/Boosters_right (16 x 16).png<>uid://hfox6v5wo7yj::::res://Mini Pixel Pack 3/Player ship/Boosters_left (16 x 16).png
+player.gd::GDScript::-1::1737912550::0::1::::<>Area2D<>::
+bullet.gd::GDScript::-1::1737912031::0::1::::<>Area2D<>::
+bullet.tscn::PackedScene::8231099398404982354::1737916584::0::1::::<><>::res://bullet.gd<>uid://bmajlqtkp0ddt::::res://Mini Pixel Pack 3/Projectiles/Player_charged_beam (16 x 16).png
+main.tscn::PackedScene::150549961858878180::1737916584::0::1::::<><>::uid://bk88xkwnouhgs::::res://Mini Pixel Pack 3/Space_BG (2 frames) (64 x 64).png<>res://main.gd<>uid://dw1sarogrjk2y::::res://player.tscn
+enemy.tscn::PackedScene::5775483122417754151::1737916584::0::1::::<><>::res://enemy.gd<>uid://dmwhxmaoi2ioa::::res://Mini Pixel Pack 3/Enemies/Bon_Bon (16 x 16).png<>uid://npb83r03mmas::::res://Mini Pixel Pack 3/Effects/Explosion (16 x 16).png
+enemy.gd::GDScript::-1::1737916543::0::1::::<>Area2D<>::
+main.gd::GDScript::-1::1737915966::0::1::::<>Node2D<>::
+enemy_bullet.gd::GDScript::-1::1737916464::0::1::::<>Area2D<>::
+enemy_bullet.tscn::PackedScene::739811885309403758::1737916584::0::1::::<><>::res://enemy_bullet.gd<>uid://uhejcbs4efqs::::res://Mini Pixel Pack 3/Projectiles/Enemy_projectile (16 x 16).png
+::res://Mini Pixel Pack 3/::1737916993
+bar_background.png::CompressedTexture2D::1732674757742245293::1737916993::1737916996::1::::<><>::
+bar_foreground.png::CompressedTexture2D::9002753032398532605::1737916860::1737916935::1::::<><>::
+LICENSE.txt::TextFile::-1::1737587154::0::1::::<><>::
+Space_BG (2 frames) (64 x 64).png::CompressedTexture2D::3158478879807865626::1737587154::1737587154::1::::<><>::
+::res://Mini Pixel Pack 3/Effects/::1737587154
+Explosion (16 x 16).png::CompressedTexture2D::943541779886213314::1737587153::1737587154::1::::<><>::
+Sparkle (16 x 16).png::CompressedTexture2D::4327095731993066424::1737587153::1737587154::1::::<><>::
+::res://Mini Pixel Pack 3/Enemies/::1737587154
+Alan (16 x 16).png::CompressedTexture2D::1564812121674631444::1737587153::1737587154::1::::<><>::
+Bon_Bon (16 x 16).png::CompressedTexture2D::8047411208462243988::1737587153::1737587154::1::::<><>::
+Lips (16 x 16).png::CompressedTexture2D::899436524988456748::1737587153::1737587154::1::::<><>::
+::res://Mini Pixel Pack 3/Items/::1737587154
+Circle_+_Square_+_Missile_pick-ups (16 x 16).png::CompressedTexture2D::428988091477611443::1737587153::1737587154::1::::<><>::
+Power_item (16 x 16).png::CompressedTexture2D::3773326829375674506::1737587154::1737587154::1::::<><>::
+::res://Mini Pixel Pack 3/Player ship/::1737587154
+Boosters (16 x 16).png::CompressedTexture2D::1140672309892232308::1737587154::1737587154::1::::<><>::
+Boosters_left (16 x 16).png::CompressedTexture2D::502536567452866057::1737587154::1737587154::1::::<><>::
+Boosters_right (16 x 16).png::CompressedTexture2D::8989050837427253238::1737587154::1737587154::1::::<><>::
+Player_ship (16 x 16).png::CompressedTexture2D::4927760374871800963::1737587154::1737587154::1::::<><>::
+::res://Mini Pixel Pack 3/Projectiles/::1737587154
+Enemy_projectile (16 x 16).png::CompressedTexture2D::1418486564603535670::1737587154::1737587154::1::::<><>::
+Player_beam (16 x 16).png::CompressedTexture2D::6132789434855529923::1737587154::1737587154::1::::<><>::
+Player_charged_beam (16 x 16).png::CompressedTexture2D::3229253774217613373::1737587154::1737587154::1::::<><>::
+Player_charged_donut_shot (16 x 16).png::CompressedTexture2D::8276194922668637962::1737587154::1737587154::1::::<><>::
+Player_charged_square_shot (16 x 16).png::CompressedTexture2D::1046082480504120837::1737587154::1737587154::1::::<><>::
+Player_donut_shot (16 x 16).png::CompressedTexture2D::7817465183330991382::1737587154::1737587154::1::::<><>::
+Player_missile_shots (16 x 16).png::CompressedTexture2D::4123908746845990970::1737587154::1737587154::1::::<><>::
+Player_square_shot (16 x 16).png::CompressedTexture2D::2799692801169633798::1737587154::1737587154::1::::<><>::
+::res://Mini Pixel Pack 3/UI objects/::1737587154
+GAME_OVER (72 x 8).png::CompressedTexture2D::5169040655521633393::1737587154::1737587154::1::::<><>::
+Item_held_box (16 x 16).png::CompressedTexture2D::6925290762212810931::1737587154::1737587154::1::::<><>::
+Number_font (8 x 8).png::CompressedTexture2D::5670444991075812105::1737587154::1737587154::1::::<><>::
+Player_life_icon (16 x 16).png::CompressedTexture2D::8596900146332423820::1737587154::1737587154::1::::<><>::
+Power_+_charge_bars (full + empty) (32 x 16).png::CompressedTexture2D::3143585603500776214::1737587154::1737587154::1::::<><>::
+START (48 x 8).png::CompressedTexture2D::7085607735852986829::1737587154::1737587154::1::::<><>::

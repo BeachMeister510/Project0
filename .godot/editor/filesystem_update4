@@ -1,0 +1,14 @@
+res://player.tscn
+res://player.gd
+res://bullet.gd
+res://bullet.tscn
+res://main.tscn
+res://enemy.gd
+res://enemy.tscn
+res://main.gd
+res://enemy_bullet.gd
+res://enemy_bullet.tscn
+res://score_counter.gd
+res://ui.tscn
+res://ui.gd
+res://score_counter.tscn
