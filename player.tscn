@@ -85,7 +85,7 @@ scale = Vector2(0.9375, 0.875)
 sprite_frames = SubResource("SpriteFrames_snt3q")
 animation = &"forward"
 autoplay = "forward"
-frame_progress = 0.906912
+frame_progress = 0.157567
 
 [node name="GunCooldown" type="Timer" parent="."]
 one_shot = true
