@@ -3,6 +3,7 @@ extends Area2D
 var start_pos = Vector2.ZERO
 var speed = 0
 var bullet_scene = preload("res://enemy_bullet.tscn")
+var power_up = preload("res://power_up.tscn")
 signal died
 
 @onready var screensize  = get_viewport_rect().size
@@ -42,3 +43,11 @@ func explode():
 	died.emit(5)
 	await $AnimationPlayer.animation_finished
 	queue_free()
+
+func spawn_power_up():
+	var chance = randf_range(0, 100)
+	var p = power_up.instantiate()
+	if chance >= 98:
+		get_tree().root.add_child(p)
+		p.start(position)
+	
