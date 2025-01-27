@@ -12,3 +12,5 @@ res://score_counter.gd
 res://ui.tscn
 res://ui.gd
 res://score_counter.tscn
+res://power_up.gd
+res://power_up.tscn

@@ -2,7 +2,7 @@ extends Area2D
 @onready var screensize = get_viewport_rect().size
 
 @export var speed = 150
-@export var cooldown = 0.25
+@export var cooldown = .25
 @export var bullet_scene : PackedScene
 @export var max_shield = 10
 var can_shoot = true
@@ -18,7 +18,6 @@ func _ready() -> void:
 
 func start():
 	position = Vector2(screensize.x / 2, screensize.y - 64)
-	$GunCooldown.wait_time = cooldown
 
 func _process(delta):
 	var input = Input.get_vector("left", "right", "up", "down")
@@ -33,6 +32,8 @@ func _process(delta):
 		$Ship/Boosters.animation = "forward"
 	position += input * speed * delta
 	position = position.clamp(Vector2(8, 8), screensize-Vector2(8, 8))
+	
+	$GunCooldown.wait_time = cooldown
 	
 	if Input.is_action_pressed("shoot"):
 		shoot()
@@ -62,3 +63,11 @@ func _on_area_entered(area):
 		area.explode()
 		shield -= max_shield / 2
 		
+func power_up():
+	cooldown = .125
+	print(cooldown)
+	$PowerUpTimer.start()
+	return cooldown
+
+func _on_power_up_timer_timeout() -> void:
+	cooldown = 0.25
